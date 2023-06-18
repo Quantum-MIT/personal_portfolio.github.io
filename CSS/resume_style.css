@@ -471,6 +471,135 @@ section:nth-child(2n+1){
 	.contact-container .contact-form-container .input-field {
   	width: 100%;
 	}
+
+/* Adjust the height of #body-header to fit mobile screens */
+#body-header {
+  height: 40vh;
+}
+
+/* Update h1 font size to be responsive */
+h1 {
+  font-size: 4rem;
+}
+
+/* Adjust the font size of horizontal-list li a for mobile */
+.horizontal-list li a {
+  font-size: 20px;
+}
+
+/* Adjust the size of social-icons li a i for mobile */
+.social-icons li a i {
+  padding: 10px;
+  font-size: 25px;
+}
+
+/* Update the section styles for better mobile experience */
+section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Adjust the height and background attachment of sections */
+#experience,
+#skills,
+#education,
+#awards,
+#portfolio {
+  height: auto;
+  background-attachment: scroll;
+}
+
+/* Update the about section styles */
+#about {
+  height: auto;
+  width: 100%;
+  position: relative;
+  padding: 2rem;
+}
+
+#my-image {
+  height: 10rem;
+  width: 10rem;
+  margin-top: 0;
+}
+
+#about-para {
+  font-size: 20px;
+  width: 100%;
+  margin: 2rem auto;
+  padding-left: 0;
+}
+
+/* Adjust the size of skills-display for mobile */
+.skills-display {
+  width: 90%;
+}
+
+/* Update the percentage classes to be responsive */
+.eighty-five-percent,
+.ninety-percent,
+.eighty-percent,
+.sixty-percent,
+.sixty-five-percent,
+.seventy-percent,
+.seventy-five-percent,
+.ninety-five-percent,
+.hundred-percent,
+.fifty-percent {
+  width: 100%;
+}
+
+/* Update the timeline styles */
+.timeline {
+  width: 100%;
+  height: auto;
+}
+
+.timeline-box,
+.timeline-box-awards {
+  width: 90%;
+  left: 5%;
+}
+/* Adjust font sizes and margins for better mobile readability */
+.section-heading {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+.skill-name span {
+  font-size: 0.8rem;
+  margin-left: 5px;
+}
+
+.company {
+  font-size: 0.8rem;
+  padding-left: 5px;
+}
+
+.contact-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+.contact-container div.contact-info {
+  margin-bottom: 0.8rem;
+}
+
+.contact-container .contact-info i {
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
+.contact-container .contact-info a {
+  font-size: 1rem;
+}
+
+.contact-container .contact-form-container .submit-button {
+  margin-top: 1rem;
+}
+
 }
 .portfolio-image-container {
   width: 25%;
