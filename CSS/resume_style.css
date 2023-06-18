@@ -439,7 +439,39 @@ section:nth-child(2n+1){
   justify-content: space-between;
   margin-bottom: 4rem;
 }
+@media screen and (max-width: 750px){
+	#portfolio-container{
+		width: 100%;
+    min-width: unset;
+    justify-content: center;
+	}
+	.portfolio-image-container {
+  	width: 100%;
+  	min-width: unset;
+  	margin: 1rem 0;
+	}
+	#contact {
+  	background-image: url(../images/newnew.jpg);
+  	background-size: cover;
+  	background-position: center;
+  	background-attachment: scroll;
+	}
 
+	.contact-container {
+		width: 100%;
+    min-width: unset;
+    justify-content: center;
+	}
+
+	.contact-container .contact-form-container,
+	.contact-container .address-container {
+  	flex-basis: 100%;
+	}
+
+	.contact-container .contact-form-container .input-field {
+  	width: 100%;
+	}
+}
 .portfolio-image-container {
   width: 25%;
   height: auto;
